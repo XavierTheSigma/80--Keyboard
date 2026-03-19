@@ -841,6 +841,179 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Crystal"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Crystal"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Two pin crystal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D"
 			(pin_numbers
 				(hide yes)
@@ -3919,9 +4092,9 @@
 		)
 		(uuid d91fcd97-dcd6-48b9-b05e-50d325d64097)
 	)
-	(text "Reset + BootSel\n"
+	(text "Reset + Boot\n"
 		(exclude_from_sim no)
-		(at 377.952 79.756 0)
+		(at 375.412 79.756 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -4052,6 +4225,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04d5f69e-1a8c-465a-b450-ab467d7f0518")
+	)
+	(junction
+		(at 320.04 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04e5d1f8-c0f3-4d0b-a5ac-6cdd5a43ed90")
 	)
 	(junction
 		(at 78.74 193.04)
@@ -4420,6 +4599,12 @@
 		(uuid "61da5b04-6e85-4da2-93e9-ab57d9dda336")
 	)
 	(junction
+		(at 330.2 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63a5c879-a6d3-4040-81ac-9e83ce69a60a")
+	)
+	(junction
 		(at 50.8 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4544,6 +4729,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81cb0206-a40a-4683-9186-68aadae324c6")
+	)
+	(junction
+		(at 330.2 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "828f760a-9ab5-4398-abd9-0acd1291fe5f")
 	)
 	(junction
 		(at 334.01 135.89)
@@ -5084,10 +5275,6 @@
 		(uuid "7b8725d4-e3e1-4982-8340-82ad319eca8b")
 	)
 	(no_connect
-		(at 334.01 184.15)
-		(uuid "82aa1a56-e1f8-470d-89f6-c29f2f2cbafc")
-	)
-	(no_connect
 		(at 334.01 194.31)
 		(uuid "a93d4053-ec31-4497-9d5e-fac661c8b6b3")
 	)
@@ -5098,10 +5285,6 @@
 	(no_connect
 		(at 54.61 85.09)
 		(uuid "cc71b20b-0b1c-41ba-93b4-66c9111cc55d")
-	)
-	(no_connect
-		(at 334.01 173.99)
-		(uuid "d27a1fda-f5f4-484e-9f6c-22b7efe8e426")
 	)
 	(no_connect
 		(at 54.61 82.55)
@@ -5529,6 +5712,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 173.99) (xy 330.2 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "134859b0-ff79-44cf-806b-a0a5390f681c")
+	)
+	(wire
+		(pts
 			(xy 293.37 170.18) (xy 293.37 171.45)
 		)
 		(stroke
@@ -5566,6 +5759,16 @@
 			(type default)
 		)
 		(uuid "1468aab9-35fd-4842-ab0b-1b44cf11d83f")
+	)
+	(wire
+		(pts
+			(xy 320.04 173.99) (xy 320.04 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1562550c-3d30-4867-a440-e61dbd0b9d9c")
 	)
 	(wire
 		(pts
@@ -6246,6 +6449,16 @@
 			(type default)
 		)
 		(uuid "3fbce046-0f14-4ca3-8e7a-5df61787a2ba")
+	)
+	(wire
+		(pts
+			(xy 330.2 173.99) (xy 330.2 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fe90935-9d01-447b-b400-514880751924")
 	)
 	(wire
 		(pts
@@ -7419,6 +7632,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 184.15) (xy 330.2 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c5c6310-eb5c-4289-8353-6c8ecb29902e")
+	)
+	(wire
+		(pts
 			(xy 60.96 114.3) (xy 62.23 114.3)
 		)
 		(stroke
@@ -7576,6 +7799,16 @@
 			(type default)
 		)
 		(uuid "853b0ccb-987a-46da-8987-2716faac0fff")
+	)
+	(wire
+		(pts
+			(xy 327.66 184.15) (xy 330.2 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85f8cb2e-6935-4992-beac-323a91fa71cf")
 	)
 	(wire
 		(pts
@@ -8709,6 +8942,16 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 184.15) (xy 320.04 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf677eb-f5dd-4232-958d-95d1e023f83a")
+	)
+	(wire
+		(pts
 			(xy 133.35 114.3) (xy 133.35 106.68)
 		)
 		(stroke
@@ -9066,6 +9309,16 @@
 			(type default)
 		)
 		(uuid "d539e088-bdf4-4080-9d3c-1b855602cd91")
+	)
+	(wire
+		(pts
+			(xy 334.01 184.15) (xy 330.2 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5a37425-74c2-4492-a09e-a7a07cf98756")
 	)
 	(wire
 		(pts
@@ -9546,6 +9799,16 @@
 			(type default)
 		)
 		(uuid "ee243e41-9808-4908-ad5e-d792f4cadc16")
+	)
+	(wire
+		(pts
+			(xy 334.01 173.99) (xy 330.2 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef0364a9-2141-4b25-912d-af682579e2d8")
 	)
 	(wire
 		(pts
@@ -11315,7 +11578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 366.7252 109.22 0)
 			(effects
 				(font
@@ -13612,7 +13875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 362.9152 113.03 0)
 			(effects
 				(font
@@ -14926,6 +15189,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 323.85 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4aebf0c7-b162-4072-97e9-471344df2319")
+		(property "Reference" "C12"
+			(at 326.898 175.514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15pF"
+			(at 327.406 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 327.66 173.0248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 323.85 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 323.85 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8562f832-387e-400d-b6c9-5e2c62e7715d")
+		)
+		(pin "2"
+			(uuid "3896585f-186a-4402-8fb1-845ebf1e49f4")
+		)
+		(instances
+			(project ""
+				(path "/54351389-1b6d-4e06-8d45-edc73bfa4464"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 45.72 147.32 90)
 		(unit 1)
@@ -15305,7 +15635,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 346.4052 113.03 0)
 			(effects
 				(font
@@ -17636,7 +17966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 106.3752 86.36 0)
 			(effects
 				(font
@@ -17793,7 +18123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 370.5352 113.03 0)
 			(effects
 				(font
@@ -17898,6 +18228,75 @@
 			(project "80% Keyboard"
 				(path "/54351389-1b6d-4e06-8d45-edc73bfa4464"
 					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal")
+		(at 330.2 179.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74c7608f-c82f-491f-98ca-5f1a017ee2f0")
+		(property "Reference" "Y1"
+			(at 330.454 182.372 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Crystal"
+			(at 330.454 176.022 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
+			(at 330.2 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 330.2 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Two pin crystal"
+			(at 330.2 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "080d81d8-d54b-4afc-a9a8-8c762a963d53")
+		)
+		(pin "1"
+			(uuid "5ecaded4-13bd-47fd-83ae-ed33314f8130")
+		)
+		(instances
+			(project ""
+				(path "/54351389-1b6d-4e06-8d45-edc73bfa4464"
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -18506,7 +18905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 100.0252 86.36 0)
 			(effects
 				(font
@@ -19584,7 +19983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 328.93 92.4052 0)
 			(effects
 				(font
@@ -21267,7 +21666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 126.6952 86.36 0)
 			(effects
 				(font
@@ -21688,6 +22087,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 320.04 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4a59b4b-a8cb-4c77-8d16-320eda24db86")
+		(property "Reference" "#PWR013"
+			(at 320.04 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 320.04 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.04 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 320.04 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98685e2d-dcf0-4e53-8723-ed6c535eda5f")
+		)
+		(instances
+			(project ""
+				(path "/54351389-1b6d-4e06-8d45-edc73bfa4464"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 237.49 142.24 0)
 		(unit 1)
@@ -21958,7 +22423,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 357.8352 113.03 0)
 			(effects
 				(font
@@ -23163,7 +23628,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 351.4852 113.03 0)
 			(effects
 				(font
@@ -26134,6 +26599,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 323.85 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e68598ab-9920-46cd-8a9d-72f10dd6a924")
+		(property "Reference" "C13"
+			(at 327.152 185.674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15pF"
+			(at 327.406 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 327.66 183.1848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 323.85 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 323.85 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8562f832-387e-400d-b6c9-5e2c62e7715d")
+		)
+		(pin "2"
+			(uuid "3896585f-186a-4402-8fb1-845ebf1e49f4")
+		)
+		(instances
+			(project ""
+				(path "/54351389-1b6d-4e06-8d45-edc73bfa4464"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 111.76 147.32 90)
 		(unit 1)
@@ -26741,7 +27273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 133.0452 86.36 0)
 			(effects
 				(font
