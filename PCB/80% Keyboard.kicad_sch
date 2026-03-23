@@ -20142,7 +20142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E_Vertical_H20mm"
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 			(at 252.73 86.106 0)
 			(effects
 				(font
@@ -23358,7 +23358,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4135-GF-A_6P_TopMnt_Horizontal"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 43.18 69.85 0)
 			(effects
 				(font
@@ -26651,10 +26651,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8562f832-387e-400d-b6c9-5e2c62e7715d")
+			(uuid "8562f832-387e-400d-b6c9-5e2c62e7715e")
 		)
 		(pin "2"
-			(uuid "3896585f-186a-4402-8fb1-845ebf1e49f4")
+			(uuid "3896585f-186a-4402-8fb1-845ebf1e49f5")
 		)
 		(instances
 			(project ""
@@ -26943,10 +26943,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "833c9f70-b5a1-4c13-8157-1ecafb351e7f")
+			(uuid "833c9f70-b5a1-4c13-8157-1ecafb351e80")
 		)
 		(pin "2"
-			(uuid "f03ea0eb-6300-484b-a3e6-cea6861b7e31")
+			(uuid "f03ea0eb-6300-484b-a3e6-cea6861b7e32")
 		)
 		(instances
 			(project ""
