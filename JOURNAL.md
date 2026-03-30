@@ -32,11 +32,13 @@ Here is the KLE data I used for the plate:
 
 `[{a:7},"",{x:0.25},"","","","",{x:0.25},"","","","",{x:0.25},"","","","",{x:1.5},"","",""],[{y:0.25},"","","","","","","","","","","","","",{w:2},"",{x:0.25},"","",""],[{w:1.5},"","","","","","","","","","","","","",{w:1.5},"",{x:0.25},"","",""],[{w:1.75},"","","","","","","","","","","","",{w:2.25},""],[{w:2.25},"","","","","","","","","","","",{w:2.75},"",{x:1.25},""],[{w:1.25},"",{w:1.25},"",{w:1.25},"",{w:6.25},"",{w:1.25},"",{w:1.25},"",{w:1.25},"",{w:1.25},"",{x:0.25},"","",""]`
 
+<!-- 
 ![image](https://stasis.hackclub-assets.com/images/1774834336654-hpsc4g.png)
 ![image](https://stasis.hackclub-assets.com/images/1774834338463-gsktvc.png)
 ![image](https://stasis.hackclub-assets.com/images/1774834372655-iks0x3.png)
 ![image](https://stasis.hackclub-assets.com/images/1774836087596-solkto.png)
 ![image](https://stasis.hackclub-assets.com/images/1774836090680-mlahpb.png)
+-->
 
 # 3/24/2026 4 AM - Upgraded The PCB + Research
 
@@ -64,10 +66,12 @@ I Also did more reseach on the Sandwich Mount Case and I think I finally figured
 Then I think I will use M3 Screws. Im planning to get my case CNC manufactured. I Spent way too much time researching for these measurments as i couldnt find much information about them.
 
 Edit:
-ive done a bit more research, i cannot get it made with CNC, I will 3D print the case myself, I will use M2.5 screws and heat set inserts to hold it together. I will Print the Bottom and Sides of the Case together and then I will print the plate and top frame together. The case has probably been the hardest part of this project so far and I havent even started designing it :(
+ive done a bit more research, i cannot get it made with CNC, I will 3D print the case myself, I will use M2.5 screws and heat set inserts to hold it together. I will Print the Bottom and Sides of the Case together and then I will print the plate and top frame together. The case has probably been the hardest part of this project so far and I havent even started designing it :
 
+<!-- 
 ![image](https://stasis.hackclub-assets.com/images/1774327407927-80l9tm.png)
 ![image](https://stasis.hackclub-assets.com/images/1774327421392-co99j7.png)
+-->
 
 # 3/23/2026 11 AM - Fixed a Big Mistake
 
@@ -87,9 +91,11 @@ I also did some research on the sandwich mount, but I havent started on the actu
 
 ![image](https://stasis.hackclub-assets.com/images/1774265885290-zzi3t1.png)
 
+<!-- 
 ![image](https://stasis.hackclub-assets.com/images/1774265803379-yuubdf.png)
 ![image](https://stasis.hackclub-assets.com/images/1774265810011-gd4ecn.png)
 ![image](https://stasis.hackclub-assets.com/images/1774265885290-zzi3t1.png)
+-->
 
 # 3/23/2026 3 AM - Mounting Screws + Art
 
@@ -98,19 +104,24 @@ _Time spent: 0.3333333333333333h_
 Today I added the M2 Mounting Screws to the Schematic and PCB. I added 6 Mounting Screws in Total, which I think should be enough to hold the PCB securely.
 
 Schematic:
+
 ![image](https://stasis.hackclub-assets.com/images/1774237415648-qjryj0.png)
 
 PCB:
+
 ![image](https://stasis.hackclub-assets.com/images/1774237438997-cd1f8k.png)
 
 I also added the Hack Club flag on both sides and, I added my Name!
+
 ![image](https://stasis.hackclub-assets.com/images/1774237479496-7ro8k2.png)
 ![image](https://stasis.hackclub-assets.com/images/1774237488088-f9fcug.png)
 
+<!-- 
 ![image](https://stasis.hackclub-assets.com/images/1774237415648-qjryj0.png)
 ![image](https://stasis.hackclub-assets.com/images/1774237438997-cd1f8k.png)
 ![image](https://stasis.hackclub-assets.com/images/1774237479496-7ro8k2.png)
 ![image](https://stasis.hackclub-assets.com/images/1774237488088-f9fcug.png)
+-->
 
 # 3/23/2026 1 AM - The Entire PCB
 
@@ -129,9 +140,11 @@ Here is my main Chip including the Flash chip and the Crystal:
 
 In my next log I might add the Mounting holes and some artwork/text to the silkscreen, just to make it unique.
 
+<!-- 
 ![image](https://stasis.hackclub-assets.com/images/1774228326179-9eu2v3.png)
 ![image](https://stasis.hackclub-assets.com/images/1774228469262-k4y9tb.png)
 ![image](https://stasis.hackclub-assets.com/images/1774228534015-zzz2yu.png)
+-->
 
 # 3/19/2026 11 AM - Added The RP2040 COB
 
@@ -178,6 +191,7 @@ I spent quite a lot of time on this and going through the RP2040 Documents and t
 
 Im sorry I couldn't write more about my experience for this part but I spent a lot of time racking my head trying to figure this stuff out.
 
+<!-- 
 ![image](https://stasis.hackclub-assets.com/images/1773920810508-c3bn2a.png)
 ![image](https://stasis.hackclub-assets.com/images/1773920879636-oxp11n.png)
 ![image](https://stasis.hackclub-assets.com/images/1773920909806-n3y93t.png)
@@ -185,6 +199,7 @@ Im sorry I couldn't write more about my experience for this part but I spent a l
 ![image](https://stasis.hackclub-assets.com/images/1773921006453-8jicus.png)
 ![image](https://stasis.hackclub-assets.com/images/1773921026704-4ywz2z.png)
 ![image](https://stasis.hackclub-assets.com/images/1773921051762-q0rn1l.png)
+-->
 
 # 3/19/2026 6 AM - I Figured Out the Design + Start of Schematic
 
@@ -210,5 +225,7 @@ I know that I maybe could've optimised it to use less pins, but as of now I have
 
 Previously when I have made a matrix, I have edited the value of each switch to its respective key. e.g. SW -> Esc. But this time I made an embarassing mistake and edited the Reference instead of the value, I then had to go through all of the switches and correct my mistake.
 
+<!-- 
 ![image](https://stasis.hackclub-assets.com/images/1773919742843-iutj73.png)
 ![image](https://stasis.hackclub-assets.com/images/1773920029648-xc9upg.png)
+-->
