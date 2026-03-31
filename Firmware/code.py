@@ -1,4 +1,4 @@
-from kb import keyboard
+from kb import keyboard, encoder_handler
 from kmk.keys import KC
 from kmk.modules.encoder import EncoderHandler
 
@@ -20,10 +20,9 @@ keyboard.keymap = [
     ]
 ]
 
-keyboard.modules[0].map = [
-    (KC.VOLU, KC.VOLD, KC.MUTE, False),
+encoder_handler.map = [
+    ((KC.VOLD, KC.VOLU, KC.MUTE),), # Layer 0
 ]
-
 
 if __name__ == '__main__':
     keyboard.go()
