@@ -9,9 +9,10 @@ I made this Keyboard for myself, And to learn. This was my first time using Chip
 - Rotary Encoder 
 - Arrow Keys
 - F Keys
+- Chip On Board
 
 ## CAD Model:
-I designed the Case to fit together with 3 pieces and 8 M2.5 screws. The 3 pieces are the Bottom of the case, The sides of the case (with a cutout for the USB-C) and the Top of the case, which includes the switch plate and the Top Frame.
+I designed the Case to fit together with 3 pieces and 8 M2.5 screws. The 3 pieces are the Bottom of the case, The sides of the case (with a cutout for the USB-C) and the Top of the case, which includes the switch plate and the Top Frame. The Bottom and Sides are clearance holes and the screw threads into the top. The screw threads into 1.4mm of the top part and the screws are actually held .5mm higher than the bottom instead of flush.
 
 <img src=assets/cad.png alt="Keyboard" width="500"/>
 
